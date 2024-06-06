@@ -6,12 +6,11 @@ public class Lambda {
     //the main objective of lambda to bring the benefits of functional programming into java.
     //it is an anonymous(nameless) function
 
-    //Functional interface have single abstract method
+    //Functional interface which contain single abstract method. it can also contain any number of default and static method but abstract method should only one.
 
     public static void main(String[] args){
 
         // () -> System.out.println("Hello");
-
         // (int a, int b) -> System.out.println(a+b);
 
         // (a,b) -> System.out.println(a+b);
